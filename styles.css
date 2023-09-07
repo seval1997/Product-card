@@ -133,8 +133,17 @@ div#headerRight > img {
 @media screen and (max-width:700px) {
 
     .productCard{
-        width: 65%;
+        width: 80%;
         height: 80vh;
     }
+
+        
+    .productCard:hover{
+        transform: scale(1.1);
+        box-shadow: 5px 5px 20px 10px black;
+        transition: all 1s ease-in-out;
+    }
+
+
 
 }
